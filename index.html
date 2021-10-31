@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="utf-8">
+            <script src="script.js"></script>
+            <title>Калькулятор</title>
+        </head>
+
+    <body>
+        <!-- поле ввода первого числа -->
+        <input id="num1" />
+
+        <div id="operator">
+            <button id="plus" onclick="oper='+'">+</button>
+            <button id="minus" onclick="oper='-'">-</button>
+            <button id="times" onclick="oper='*'">*</button>
+            <button id="divide" onclick="oper=':'">:</button>
+            <button id="proc" onclick="oper='%'">%</button>
+            <button id="ost" onclick="oper='**'">**</button>
+
+        </div>
+        <!-- поле ввода второго числа -->
+        <input id="num2" />
+        <br>
+
+        <button onclick="func()">Посчитать</button>
+
+        <p id="result"></p>
+    </body>    
+    </html>
